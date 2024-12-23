@@ -1,5 +1,26 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+# Cre8iveSpot
+
+Cre8iveSpot is an innovative platform built with Next.js, where users can showcase their creative projects, gain recognition through likes, and collaborate with like-minded individuals. It provides a seamless experience for exploring and interacting with exciting projects across various categories.
+
+## Features
+
+- **Project Showcasing**: Upload and present your projects with descriptions, media, and tags.  
+- **Like and Boost**: Gain likes to improve the visibility of your project.  
+- **Collaboration Tools**: Connect and collaborate with other creators.  
+- **Explore Projects**: Filter and search for projects by category, popularity, or recency.  
+- **User Profiles**: Showcase all your creative endeavors in a single profile.  
+
+## Technologies Used
+
+- **Frontend**: Next.js, Tailwind CSS  
+- **Backend**: API Routes in Next.js  
+- **Database**: MongoDB (using Mongoose ORM)  
+- **Authentication**: NextAuth.js with JWT for secure login and registration  
+- **Image Hosting**: Cloudinary or other services for handling project images  
+- **Deployment**: Deployed on Vercel  
+
 ## Getting Started
 
 First, run the development server:
