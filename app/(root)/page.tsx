@@ -12,7 +12,15 @@ export default async function Home({searchParams}:{
 <p className="sub-heading !max-w-3xl">Get your SaaS application in front of the right audience. </p>
     <Searchform query={query}/>
     </section>
-   
+   <section>
+    <p className="text-30-semibold">
+      {query ? `Search results for "${query}"` : "Popular SaaS applications"}
+
+    </p>
+    <ul className="mt-7 card_grid">
+
+    </ul>
+    </section>
    
     </>
   );
